@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race Hard", "Assembly-CSharp.csproj", "{16AD1D69-1253-0C3D-C9DD-06036882A1DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{16AD1D69-1253-0C3D-C9DD-06036882A1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race Hard", "Assembly-CSharp-firstpass.csproj", "{1EB76D5A-5C7F-604C-E84B-7417B1402809}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{1EB76D5A-5C7F-604C-E84B-7417B1402809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race Hard", "Assembly-CSharp-Editor-firstpass.csproj", "{B659031F-884A-4679-79CE-6A703416E282}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{B659031F-884A-4679-79CE-6A703416E282}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
