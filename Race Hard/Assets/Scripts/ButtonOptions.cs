@@ -22,6 +22,11 @@ public class ButtonOptions : MonoBehaviour {
         SceneManager.LoadScene(0);
     }
 
+    public void Multiplayer()
+    {
+        SceneManager.LoadScene(5);
+    }
+
     //Track selection buttons
 
     public void Track01()
