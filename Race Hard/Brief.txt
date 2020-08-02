@@ -1,0 +1,41 @@
+You must meet all of these requirements. Exceptionally, individual agreement with your Tutor may apply.
+
+Your project must be a 2D or 3D graphical application running on a PC.
+The implementation language is C++ or C#.
+Network based game or split screen.
+You may also freely use libraries, original sample code, as well as sample code provided by the Tutor.
+Usage of any other source code, not listed above, must be reported. Usage of any third party libraries or game engines must be agreed with the tutor beforehand. Disobedience may result in project being rejected.
+The game type is up to the students
+Your project must have a plot or a goal.
+As a minimum you can consider that the game will be as the examples discussed in the class. Other ideas are welcome if you can demonstrate your technical skills – so, if your game is set in total nothingness, it’s unlikely to attract good marks.
+Players must be able to navigate (move) within the game space.
+ 
+
+Please note that the game setting (title screen, menu, scoring, timing etc.) is not a requirement but will improve your mark.
+
+ 
+
+Tasks
+
+You must implement at least one of these tasks. Do more to attract good marks!
+
+Include a (moving) background
+Put some interesting objects into your scene. To attract good marks, use non-trivial 2D/3D modelling, texturing or provide it with some kind of animated behaviour.
+Conceptually close to the machinery, but vehicles should be able to move around.
+If you’d like to try your hand in artificial intelligence, you are welcome! This is an open-ended topic.
+Collision detection. You will have to introduce some kind of scenery to collide with. Collision detection should restrict player’s or NPC’s motion based on contact conditions with other objects (e.g. walls).
+You will have to introduce some kind of target (enemy monsters?) and test the player’s accuracy. Extra bonus for moving targets!
+This includes game title screen, menus, scoring, timing, status, hall of fame etc.
+Anything else. You must obtain a go ahead from your Tutor if you have any other interesting idea.
+Focus on a specific part and improve it as much as possible.
+ 
+
+Report
+
+The Project Report should include:
+Task or tasks you were implementing
+Plot or goal of the game, user instructions (if necessary)
+All major techniques, algorithms and tools applied in the solution
+Specification of the source code (description of major classes, functions and variables)
+Discussion of performance and optimization techniques (where applicable)
+References
