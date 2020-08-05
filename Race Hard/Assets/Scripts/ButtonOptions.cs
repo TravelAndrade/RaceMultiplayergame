@@ -44,5 +44,9 @@ public class ButtonOptions : MonoBehaviour {
         SceneManager.LoadScene(4);
     }
 
+    public void Multiscene()
+    {
+        SceneManager.LoadScene(6);
+    }
 }
 
