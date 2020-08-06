@@ -8,6 +8,11 @@ public class NetworkManager : MonoBehaviour
     private TypedLobby lobbyName = new TypedLobby("New_Lobby", LobbyType.Default);
     private RoomInfo[] roomsList;
     public GameObject player;
+    public GameObject spawnSpots1;
+    public GameObject spawnSpots2;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
