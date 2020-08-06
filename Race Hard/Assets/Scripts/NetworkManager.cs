@@ -27,6 +27,8 @@ public class NetworkManager : MonoBehaviour
 
      void OnGUI()
      {
+        PauseGame();
+
         if (!PhotonNetwork.connected)
         {
             GUILayout.Label(PhotonNetwork.connectionStateDetailed.ToString());
@@ -35,11 +37,13 @@ public class NetworkManager : MonoBehaviour
         {
             if (GUI.Button(new Rect(100, 100, 250, 100), "Start Server"))
             {
+                ResumeGame();
                 PhotonNetwork.CreateRoom(roomName, new RoomOptions()
                 { MaxPlayers = 4, IsOpen = true, IsVisible = true }, lobbyName);
             }
             if (roomsList != null)
             {
+                ResumeGame();
                 for (int i = 0; i < roomsList.Length; i++)
                 {
                     if (GUI.Button(new Rect(100, 250 + (110 * i), 250, 100),
@@ -73,5 +77,15 @@ public class NetworkManager : MonoBehaviour
     {
         Debug.Log("Connected to Room");
         PhotonNetwork.Instantiate(player.name, Vector3.up * 5, Quaternion.identity, 0);
+    }
+
+    void PauseGame()
+    {
+        Time.timeScale = 1;
+    }
+
+    void ResumeGame()
+    {
+        Time.timeScale = 0;
     }
 }

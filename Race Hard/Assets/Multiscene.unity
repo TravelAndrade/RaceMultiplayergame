@@ -887,7 +887,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 9.63e-42, z: 0, w: -19.375}
+  m_BoundingSphereOverride: {x: 7.9e-43, y: 1.058e-42, z: 0, w: 4.6736717}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -3619,6 +3619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  RotateSpeed: 3
   camera: {fileID: 0}
   bullet: {fileID: 0}
 --- !u!1 &1560887211
@@ -5076,6 +5077,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4745490939232895240, guid: 8c80b988d75d1954b80560bf29b51d82,
         type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745490939232895240, guid: 8c80b988d75d1954b80560bf29b51d82,
+        type: 3}
       propertyPath: viewIdField
       value: 1
       objectReference: {fileID: 0}
@@ -5083,6 +5089,21 @@ PrefabInstance:
         type: 3}
       propertyPath: instantiationId
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745490939232895240, guid: 8c80b988d75d1954b80560bf29b51d82,
+        type: 3}
+      propertyPath: ObservedComponentsFoldoutOpen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745490939232895240, guid: 8c80b988d75d1954b80560bf29b51d82,
+        type: 3}
+      propertyPath: ObservedComponents.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814099040944752480, guid: 8c80b988d75d1954b80560bf29b51d82,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4814099040947850240, guid: 8c80b988d75d1954b80560bf29b51d82,
         type: 3}
@@ -5165,6 +5186,11 @@ PrefabInstance:
     - target: {fileID: 4814099040949789802, guid: 8c80b988d75d1954b80560bf29b51d82,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814099040959468002, guid: 8c80b988d75d1954b80560bf29b51d82,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

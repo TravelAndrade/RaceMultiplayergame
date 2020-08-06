@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Playernew : Photon.MonoBehaviour
 {
     public float speed = 50f;
+    public float RotateSpeed = 3.0f;
     private float lastSynchronizationTime = 0f;
     private float syncDelay = 0f;
     private float syncTime = 0f;
@@ -150,9 +151,11 @@ public class Playernew : Photon.MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
             GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + Vector3.right * speed * Time.deltaTime);
+            
 
         if (Input.GetKey(KeyCode.A))
             GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position - Vector3.right * speed * Time.deltaTime);
+           
     }
 
 
