@@ -17,6 +17,8 @@ public class NetworkManager : MonoBehaviour
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings("v4.2");
+        spawnSpots1 = GameObject.FindGameObjectWithTag("spawnpoints");
+        spawnSpots2 = GameObject.FindGameObjectWithTag("spawnpoints2");
     }
     // Update is called once per frame
     void Update()
